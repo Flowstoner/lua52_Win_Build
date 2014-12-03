@@ -1,4 +1,4 @@
- # Lua 5.2.3 Windows Build Scripts
+# Lua 5.2.3 Windows Build Scripts
 Due to a lack of any real documentation on building Lua for Windows I've spent far too much time figuring out the different approaches.  Most have us build through Visual Studio with instructions on how to build the interpeter.  This doesn't help us if we want to embed Lua.  As I am tired of refiguring all of this out every year or two when I need to rebuild Lua from souce due to updates to Visual Studio (this time to VS 2013) and as a result I've created a simple build script for getting this running.
 
 ##Compiling
